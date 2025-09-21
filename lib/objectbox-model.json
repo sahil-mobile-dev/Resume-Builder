@@ -1,0 +1,179 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:2996448800773476148",
+      "lastPropertyId": "5:3296177899163286123",
+      "name": "EducationDetails",
+      "properties": [
+        {
+          "id": "1:4562734370226251380",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:741230557486613260",
+          "name": "institution",
+          "type": 9
+        },
+        {
+          "id": "3:2930220593734791132",
+          "name": "degree",
+          "type": 9
+        },
+        {
+          "id": "4:546353114742275498",
+          "name": "year",
+          "type": 9
+        },
+        {
+          "id": "5:3296177899163286123",
+          "name": "gpa",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:6423883994208048259",
+      "lastPropertyId": "10:8334909648267107996",
+      "name": "PersonalDetails",
+      "properties": [
+        {
+          "id": "1:1355802975226682858",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:9085989838317483290",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "3:4812259889797999405",
+          "name": "email",
+          "type": 9
+        },
+        {
+          "id": "4:6423734100800830103",
+          "name": "phone",
+          "type": 9
+        },
+        {
+          "id": "5:7090809348638001384",
+          "name": "address",
+          "type": 9
+        },
+        {
+          "id": "6:1164676426782122651",
+          "name": "summary",
+          "type": 9
+        },
+        {
+          "id": "7:7211466124803302569",
+          "name": "linkedin",
+          "type": 9
+        },
+        {
+          "id": "8:268323969551632460",
+          "name": "github",
+          "type": 9
+        },
+        {
+          "id": "9:6593173546883534373",
+          "name": "portfolio",
+          "type": 9
+        },
+        {
+          "id": "10:8334909648267107996",
+          "name": "achievements",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "3:5873961934480414485",
+      "lastPropertyId": "3:3243639778401776321",
+      "name": "Skill",
+      "properties": [
+        {
+          "id": "1:914351932012774331",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:6830455441051775577",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "3:3243639778401776321",
+          "name": "level",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "4:4646682648640795801",
+      "lastPropertyId": "7:2978455506764379415",
+      "name": "WorkExperience",
+      "properties": [
+        {
+          "id": "1:278206363946061149",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:7018360339340778863",
+          "name": "company",
+          "type": 9
+        },
+        {
+          "id": "3:6674973107882777230",
+          "name": "position",
+          "type": 9
+        },
+        {
+          "id": "4:4285707127078937093",
+          "name": "startDate",
+          "type": 9
+        },
+        {
+          "id": "5:8339810658517502794",
+          "name": "endDate",
+          "type": 9
+        },
+        {
+          "id": "6:4517195755544918110",
+          "name": "description",
+          "type": 9
+        },
+        {
+          "id": "7:2978455506764379415",
+          "name": "projectLink",
+          "type": 9
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "4:4646682648640795801",
+  "lastIndexId": "0:0",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}
